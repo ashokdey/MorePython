@@ -125,10 +125,3 @@ help(greetUser)
 print("printing help doc of greetUser()")
 print(greetUser.__doc__)
 
-
-
-
-
-
-
-
