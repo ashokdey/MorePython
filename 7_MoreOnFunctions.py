@@ -158,19 +158,4 @@ print ("Using Lambda : ", numberLambda)
 square = 10
 
 # then we cannot call that function again
-# square(10) # Error here and the function is lost 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# square(10) # Error here and the lambda function is lost 
