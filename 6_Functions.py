@@ -75,7 +75,7 @@ def varArguments (*args) :
 
 # Calling varargs function 
 
-varArguments("Ashok", "Ducat", 1, 4.5643)
+varArguments("Ashok", "Java", 1, 4.5643)
 
 print()
 
