@@ -2,11 +2,13 @@
 # We use the keyword 'def' to define a function followed by the nem of the function
 # Even if the function o not have any parameters, the '()' and ':' is required
 
-# sample function 
+# sample function
+ 
 def hello () :
 	print ("Hello user")
 
 # calling the function 
+
 hello()
 
 # now lets take name from the user 
@@ -16,6 +18,7 @@ def helloUser (name) :
 	print("hello ", name)
 
 # calling the function with argument 'John'
+
 helloUser("John")
 
 # Lets make it more interactive, take the name from user and greet them
@@ -32,9 +35,11 @@ sumofnos = sum(5, 9)
 print(sumofnos)
 
 # directly calling the function iside another function
+
 print(sum(23, 56))
 
 # Function returning a boolean value 
+
 def isAgree () :
 	return True
 
@@ -67,6 +72,7 @@ print("pass in work inside else block")
 
 # function with variable number of arguments or varagrs
 # it takes the arguments as a tuple
+
 print("\nVariable length arguments :\n")
 def varArguments (*args) :
 	print("here is the tuple returned by args in *args : ", args)
@@ -87,6 +93,7 @@ def varArguments_2 (**args) :
 	return None
 
 # calling the above function with key value pair 
+
 varArguments_2 (food='bread', day='monday', desert='sweet')
 
 print()
@@ -104,7 +111,9 @@ print("Docstring here :\n")
 # calling help() on the previous functions we created
 
 help(sum)
+
 # Or we can call the 'docstring' that is attached to our function
+
 print ("printing the help document")
 print(sum.__doc__)
 
@@ -124,4 +133,3 @@ help(greetUser)
 
 print("printing help doc of greetUser()")
 print(greetUser.__doc__)
-
