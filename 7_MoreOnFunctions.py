@@ -131,7 +131,7 @@ catchReturn()
 
 print ("\nWelcome to LAMBDAS")
 
-# Syntax of Lambda : lambda arguments : expressions
+# Syntax of Lambda = lambda arguments : expressions
 # They are ment for very small functions that can be written in a line 
 # They act mostly similar to the inline functions in C++ 
 
