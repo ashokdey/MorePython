@@ -82,5 +82,6 @@ except:
 try:
 	myFile = open("_new_demo.txt", "r")
 	print("\n\n",myFile.read())
+	myFile.close()
 except:
 	print("Error")
