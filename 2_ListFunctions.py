@@ -6,10 +6,10 @@ myList = ["India", "USA", "Japan", "Russia", "Australia", "John", "Bob", "Eclips
 #Printing the list 
 print(myList)
 
-# Using offset to rethrive India
+# Using offset to retrieve India
 print (myList[0])
 
-# Using offset to rethrive Russia
+# Using offset to retrieve Russia
 print(myList[3])
 
 # Modifying using offset 
